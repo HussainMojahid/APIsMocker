@@ -100,28 +100,23 @@ public class HttpRoundTripServiceImpl implements HttpRoundTripService {
 
     @Override
     public HttpRoundTripView findReqResByPath(String requestURI, Object obj) throws JsonProcessingException {
-
+        Boolean flag = false;
         List<HttpRoundTrip> eList = httpRoundTripRepo.findByPath(requestURI);
 
         if (eList.size() <= 0) {
-
             throw new NoConfiguredPathException();
-
         }
 
         String s = objectMapper.writeValueAsString(obj);
         for (HttpRoundTrip httpRoundTrip : eList) {
-
             if (httpRoundTrip.getRequest().equals(s)) {
-
+                flag = true;
                 return jSONformaterView(httpRoundTrip);
-            } else {
-
-                throw new InexactRequestBodyException();
             }
-
         }
-
+        if (!flag) {
+            throw new InexactRequestBodyException();
+        }
         return null;
     }
 

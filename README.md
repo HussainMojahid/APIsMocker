@@ -26,3 +26,6 @@ Steps:
    
 
 Visit http://localhost:8080 in your browser.
+
+For Swagger Visit
+http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/
