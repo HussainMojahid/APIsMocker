@@ -66,6 +66,17 @@ public class CSTServicesController {
     @GetMapping("/CustomerDetails")
     public ResponseEntity<Object> CustomerDetails() throws IOException {
 
+        // System.out.println(obj);
+        ClassPathResource staticDataResource = new ClassPathResource("/Jsons/CustomerDetails.json");
+        String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
+
+        return ResponseEntity.status(HttpStatus.OK).body(objectMapper.readValue(staticDataString, Object.class));
+
+    }
+
+    @PostMapping("/CustomerDetails")
+    public ResponseEntity<Object> CustomerDetailsPost() throws IOException {
+
         ClassPathResource staticDataResource = new ClassPathResource("/Jsons/CustomerDetails.json");
         String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
 
