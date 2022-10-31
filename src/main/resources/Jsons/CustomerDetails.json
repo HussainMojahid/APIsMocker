@@ -1,0 +1,113 @@
+{
+    "ARErrorMessage": null,
+    "ENErrorMessage": null,
+    "ErrorCode": 0,
+    "ErrorMessageDetails": null,
+    "Data": [
+      {
+        "customerName": "Rehan Khan",
+        "customerArabicName": "xyz",
+        "qId": "912345678921",
+        "qidExpiry Date": "01-01-2100",
+        "emailAddress": "RehanKhan@xxx.com",
+        "personId": "4567435687",
+        "phoneNo": "87654321",
+        "userType": "",
+        "age": "40",
+        "gender": "M",
+        "nationality": "Qatari",
+        "maritalStatus": "M",
+        "totalNumberOfAccounts": "2",
+        "PersonInfoString": "RehanKhan,Quatari,M,40",
+        "contactList": [
+          {
+            "personContactType": "Phone",
+            "contactValue": "87654321",
+            "status": "Active",
+            "isPrimary": "Yes",
+            "dndStart": "08:00",
+            "dndEnd": "16:00"
+          },
+          {
+            "personContactType": "Email",
+            "contactValue": "RehanKhan@xxx.com",
+            "status": "Active",
+            "isPrimary": "Yes",
+            "dndStart": "08:00",
+            "dndEnd": "16:00"
+          }
+        ],
+        "idList": [
+          {
+            "Person Id Type": "QID",
+            "Id Value": "123455"
+          }
+        ],
+        "accountList": [
+          {
+            "Premise ID": "1234567890",
+            "PremiseInfoString": "1234567890,123 Madaar Complex",
+            "Account ID": "9834567890",
+            "Premise Address": "123 Al Madar Complex",
+            "AccountInfoString": "9834567890,Residential, 1",
+            "AccountClassification": "Residential",
+            "AutopayEnrolled": "Yes",
+            "BudgetBillingEnrolled": "No",
+            "Premise Type": "Villa",
+            "Premise Category ": "Owner",
+            "BuildingNumber/BuildingName": "Q1 Complex",
+            "UnitNumber": "123",
+            "Prepaid/Postpaid": "Postpaid",
+            "Is Life Support ?": "No",
+            "Is QTR exempted ?": "No",
+            "Is TPQ": "yes",
+            "Electricity Number": "67865433",
+            "Zone": "ABC",
+            "Area": "XYZ",
+            "Notification Pref list": [
+              {
+                "Notification Type ": " ",
+                "Delivery Type": " ",
+                "Person Contact": " ",
+                "Opeted In?": " ",
+                "Push notification list": " ",
+                "Days Before": " "
+              }
+            ]
+          },
+          {
+            "Premise ID": "5678901234",
+            "PremiseInfoString": "9874567890,123 Madaar Complex",
+            "Account ID": "1134567890",
+            "Premise Address": "678 Q2 Complex",
+            "AccountInfoString": "4444567890,Residential, 1",
+            "AccountClassification": "Residential",
+            "AutopayEnrolled": "Yes",
+            "BudgetBillingEnrolled": "No",
+            "Premise Type": "Villa",
+            "Premise Category ": "Owner",
+            "BuildingNumber/BuildingName": "Q2 Complex",
+            "UnitNumber": "123",
+            "Prepaid/Postpaid": "Postpaid",
+            "Is Life Support ?": "No",
+            "Is QTR exempted ?": "No",
+            "Is TPQ": "yes",
+            "Electricity Number": "65865433",
+            "Zone": "ABC",
+            "Area": "XYZ",
+            "Notification Pref list": [
+              {
+                "Notification Type ": " ",
+                "Delivery Type": " ",
+                "Person Contact": " ",
+                "Opeted In?": " ",
+                "Push notification list": " ",
+                "Days Before": " "
+              }
+            ]
+          }
+        ],
+        "HasRows": true
+      }
+    ]
+  }

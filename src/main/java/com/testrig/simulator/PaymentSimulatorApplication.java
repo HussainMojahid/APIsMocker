@@ -12,9 +12,9 @@ import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Payment simulator",version = "2.0",description = "Payment Simulator"))
+@OpenAPIDefinition(info = @Info(title = "Payment simulator", version = "2.0", description = "Payment Simulator"))
 public class PaymentSimulatorApplication {
-	@Bean
+    @Bean
     public ObjectMapper objectMapper() {
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
@@ -22,8 +22,9 @@ public class PaymentSimulatorApplication {
 
         return mapper;
     }
-	public static void main(String[] args) {
-		SpringApplication.run(PaymentSimulatorApplication.class, args);
-	}
+
+    public static void main(String[] args) {
+        SpringApplication.run(PaymentSimulatorApplication.class, args);
+    }
 
 }

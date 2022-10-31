@@ -1,0 +1,12 @@
+{"ServicePointList" : [
+    {        
+    "SPType":"water",
+    "SPId":"87654321",
+    "SerialNUm":"12345"
+    },
+    {        
+    "SPType":"ele",
+    "SPId":"87654321",
+    "SerialNUm":"87654"
+    }
+]}
