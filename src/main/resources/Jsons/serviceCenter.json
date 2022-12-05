@@ -1,0 +1,49 @@
+{
+  "serviceCenter": {
+    "ARErrorMessage": null,
+    "ENErrorMessage": null,
+    "ErrorCode": 0,
+    "ErrorMessageDetails": null,
+    "serviceCenter1": [
+      {
+        "BranchDay": "Sunday - Thursday",
+        "BranchId": "40158",
+        "BranchLocation": "123",
+        "BranchNameAR": "مشيرب",
+        "BranchNameEN": "MUSHEIREB",
+        "BranchTiming": "07:30 AM to 2:00 PM",
+        "CenterType": "Service Center",
+        "Distance": "4362.93",
+        "IdentityName": "BR05",
+        "Latitude": "25.281361",
+        "Longitude": "51.524959"
+      },
+      {
+        "BranchDay": "Sunday - Thursday",
+        "BranchId": "22039",
+        "BranchLocation": "123",
+        "BranchNameAR": "فرع الهلال",
+        "BranchNameEN": "AL-Hilal Branch",
+        "BranchTiming": "07:30 AM to 12:00 PM",
+        "CenterType": "Service Center",
+        "Distance": "7417.24",
+        "IdentityName": "BR02",
+        "Latitude": "25.253611",
+        "Longitude": "51.528194"
+      },
+      {
+        "BranchDay": "Sunday - Thursday",
+        "BranchId": "33490",
+        "BranchLocation": "123",
+        "BranchNameAR": "فرع الخور",
+        "BranchNameEN": "Al Khor",
+        "BranchTiming": "07:30 AM to 2:00 PM",
+        "CenterType": "Service Center",
+        "Distance": "39875.55",
+        "IdentityName": "BR04",
+        "Latitude": "25.678861",
+        "Longitude": "51.52347"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "ServicePointDetails": [
+        {
+            "FetchServicePointDetails": [
+                {
+                    "Service Type": "Electricity",
+                    "Service Point ID": "8975869585",
+                    "Meter Serial Number": "520123120",
+                    "MeterType": "Smart",
+                    "PreviousReading": "120",
+                    "PreviousReadingDate": "11-11-2022",
+                    "isPrepaid": true
+                },
+                {
+                    "Service Type": "Water",
+                    "Service Point ID": "8975869585",
+                    "Meter Serial Number": "520123120",
+                    "MeterType": "Non Smart",
+                    "PreviousReading": "111",
+                    "PreviousReadingDate": "10-11-2022",
+                    "isPrepaid": true
+                }
+            ]
+        }
+    ]
+}

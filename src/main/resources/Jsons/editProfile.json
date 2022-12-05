@@ -1,0 +1,287 @@
+{
+    "CustomerData": [
+        {
+            "CustomerName": "Rehan Khan",
+            "CustomerNameEnglish": "Rehan Khan",
+            "CustomerNameArabic": "",
+            "preferredLanguage": "English",
+            "Id": [
+                {
+                    "IdType": "QID",
+                    "IdNumber": "98507324255",
+                    "ExpiryDate": "12-22-2022"
+                },
+                {
+                    "IdType": "Passport ID",
+                    "IdNumber": "76544",
+                    "ExpiryDate": "07/29/2026"
+                },
+                {
+                    "IdType": "Est ID",
+                    "IdNumber": "98507324255",
+                    "ExpiryDate": "02/23/2022"
+                }
+            ],
+            "Account": [
+                {
+                    "AccountID": "7670743596",
+                    "AccountClassification": "Residential",
+                    "Category": "Prepaid",
+                    "Alias": "Dad's",
+                    "AccountInformation": {
+                        "SubscriptionNotification": [
+                            {
+                                "NotificationType": "Bill Due Notification",
+                                "NotificationTypeArb":"إشعار استحقاق الفاتورة",
+                                "DaysBefore": "5",
+                                "OptIn": true,
+                                "Willbesentto": [
+                                    {
+                                        "ContactNumber": "8746372894"
+                                    },
+                                    {
+                                        "ContactNumber": "9879797979"
+                                    }
+                                ]
+                            },
+                            {
+                                "NotificationType": "Bill Ready Notification",
+                                "NotificationTypeArb":"إشعار جاهز للفواتير",
+                                "OptIn": true,
+                                "Willbesentto": [
+                                    {
+                                        "ContactNumber": "rehankhan@km.qa"
+                                    },
+                                    {
+                                        "ContactNumber": "9879797979"
+                                    },
+                                    {
+                                        "ContactNumber": "rehankhan@gmail.com"
+                                    }
+                                ]
+                            },
+                            {
+                                "NotificationType": "Late Payment Notification",
+                                "NotificationTypeArb":"إشعار السداد المتأخر",
+                                "OptIn": true,
+                                "Willbesentto": [
+                                    {
+                                        "ContactNumber": "rehankhan@km.qa"
+                                    },
+                                    {
+                                        "ContactNumber": "8746372894"
+                                    }
+                                ]
+                            }
+                        ],
+                        "BillPreference": [
+                            {
+                                "billPreference": "SMS"
+                            },
+                            {
+                                "billPreference": "Email"
+                            }
+                        ],
+                        "AccountSubscriptions": {
+                            "Autopay": true,
+                            "BudgetBilling": true
+                        }
+                    }
+                },
+                {
+                    "AccountID": "5648383993",
+                    "AccountClassification": "Residential",
+                    "Category": "Postpaid",
+                    "Alias": "Mine",
+                    "AccountInformation": {
+                        "SubscriptionNotification": [
+                            {
+                                "NotificationType": "Bill Due Notification",
+                                "NotificationTypeArb":"إشعار استحقاق الفاتورة",
+                                "DaysBefore": "5",
+                                "OptIn": true,
+                                "Willbesentto": [
+                                    {
+                                        "ContactNumber": "8746372894"
+                                    },
+                                    {
+                                        "ContactNumber": "9879797979"
+                                    }
+                                ]
+                            },
+                            {
+                                "NotificationType": "Bill Ready Notification",
+                                "NotificationTypeArb":"إشعار جاهز للفواتير",
+                                "OptIn": true,
+                                "Willbesentto": [
+                                    {
+                                        "ContactNumber": "rehankhan@km.qa"
+                                    },
+                                    {
+                                        "ContactNumber": "9879797979"
+                                    }
+                                ]
+                            },
+                            {
+                                "NotificationType": "Late Payment Notification",
+                                "NotificationTypeArb":"إشعار السداد المتأخر",
+                                "OptIn": true,
+                                "Willbesentto": [
+                                    {
+                                        "ContactNumber": "rehankhan@km.qa"
+                                    },
+                                    {
+                                        "ContactNumber": "8746372894"
+                                    }
+                                ]
+                            }
+                        ],
+                        "BillPreference": [
+                            {
+                                "billPreference": "SMS"
+                            },
+                            {
+                                "billPreference": "Email"
+                            }
+                        ],
+                        "AccountSubscriptions": {
+                            "Autopay": true,
+                            "BudgetBilling": true
+                        }
+                    }
+                }
+            ],
+            "NotificationPreferences": [
+                {
+                    "NotificationType": "Bill Due Notification",
+                    "NotificationTypeArb":"إشعار استحقاق الفاتورة",
+                    "DaysBefore": "5",
+                    "OptIn": true,
+                    "Willbesentto": [
+                        {
+                            "ContactNumber": "8746372894"
+                        },
+                        {
+                            "ContactNumber": "rehankhan@km.qa"
+                        }
+                    ]
+                },
+                {
+                    "NotificationType": "Bill Ready Notification",
+                    "NotificationTypeArb":"إشعار جاهز للفواتير",
+                    "OptIn": true,
+                    "Willbesentto": [
+                        {
+                            "ContactNumber": "8746372894"
+                        },
+                        {
+                            "ContactNumber": "rehankhan@km.qa"
+                        },
+                        {
+                            "ContactNumber": "rehankhan@gmail.com"
+                        }
+                    ]
+                },
+                {
+                    "NotificationType": "Late Payment Notification",
+                    "NotificationTypeArb":"إشعار السداد المتأخر",
+                    "OptIn": true,
+                    "Willbesentto": [
+                        {
+                            "ContactNumber": "8746372894"
+                        },
+                        {
+                            "ContactNumber": "rehankhan@gmail.com"
+                        }
+                    ]
+                },
+                {
+                    "NotificationType": "Outstanding Balance",
+                    "NotificationTypeArb":"اتزان رائع",
+                    "OptIn": true,
+                    "Willbesentto": [
+                        {
+                            "ContactNumber": "8746372894"
+                        },
+                        {
+                            "ContactNumber": "9879797979"
+                        }
+                    ]
+                }
+            ],
+            "UserID": "QID",
+            "UserIDValue": "8495966686",
+            "Address": "Street 389, AI Jama Street, Doha",
+            "PersonId": "51186",
+            "Contact": [
+                {
+                    "ContactType": "Home Phone Number",
+                    "ContactTypeAR": "رقم الهاتف المنزلي",
+                    "ContactInformation": "974511862314",
+                    "IsPrimary": true,
+                    "IsDoNotDisturb": true,
+                    "DNDStart": "14:41:00",
+                    "DNDEnd": "15:41:00"
+                },
+                {
+                    "ContactType": "Mobile Number",
+                    "ContactTypeAR": "رقم الهاتف المحمول",
+                    "ContactInformation": "8746372894",
+                    "IsPrimary": false,
+                    "IsDoNotDisturb": false,
+                    "DNDStart": "10:41:00",
+                    "DNDEnd": "12:00:00"
+                },
+                {
+                    "ContactType": "Primary Email",
+                    "ContactTypeAR": "البريد الإلكتروني الرئيسي",
+                    "ContactInformation": "rehankhan@km.qa",
+                    "IsPrimary": true,
+                    "IsDoNotDisturb": false,
+                    "DNDStart": "",
+                    "DNDEnd": ""
+                },
+                {
+                    "ContactType": "Fax Number",
+                    "ContactTypeAR": "رقم الفاكس",
+                    "ContactInformation": "123456",
+                    "IsPrimary": true,
+                    "IsDoNotDisturb": true,
+                    "DNDStart": "",
+                    "DNDEnd": ""
+                },
+                {
+                    "ContactType": "Secondary Email",
+                    "ContactTypeAR": "البريد الإلكتروني الثانوي",
+                    "ContactInformation": "rehankhan@gmail.com",
+                    "IsPrimary": true,
+                    "IsDoNotDisturb": true,
+                    "DNDStart": "",
+                    "DNDEnd": ""
+                }
+            ],
+            "isMmeCreatedWith": "Passport",
+            "MoveInDate": "11-07-2022",
+            "PremiseNumber_ElectricityNumber": "7670743596",
+            "AccountClassification": "Villa",
+            "tariffRates": {
+                "electricityTariffRates": {
+                    "type": "Electricity",
+                    "layers": "(1-99999999)",
+                    "tariff": "0.07"
+                },
+                "waterTariffRates": {
+                    "type": "Water",
+                    "layers": "(1-99999999)",
+                    "tariff": "5.2"
+                }
+            },
+            "Area": "AJ Khor",
+            "Street": "BLOCK NO 22, ST NO29 INDUSTRIAL AREA",
+            "BuildingNumber": "423",
+            "Zone": "456733",
+            "Plot": "2442",
+            "PIN": "122104"
+        }
+    ]
+}

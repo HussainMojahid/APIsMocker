@@ -1,0 +1,55 @@
+
+{
+    "MME": {
+      "getMMEContractDetails": [
+            
+        {   
+            "ReferenceID": "123456",  
+            "CaseID":"123456", 
+            "ContractID":"1234567",  
+            "CustomerName":"Rehan Khan"
+        }
+        
+    ],
+    "getMMEMoveInCustomerDetails": [
+            
+        {   
+            "CustomerNameEnglish": "Rehan Khan",  
+            "CustomerNameArabic":"ريحان خان", 
+            "MobileNumber":"8746372894",
+            "Email":"",
+            "MoveInDate":"11-07-2022",
+            "QID":"98507324255",
+            "ExpiryDate":"11-07-2026",
+            "PremiseNumber_ElectricityNumber":"7670743596",
+            "AccountClassification":"Villa",
+            "tariffRates": {
+                "electricityTariffRates": {
+                  "type":"Electricity",
+                  "layers": "(1-99999999)",
+                  "tariff": "0.07"
+                },
+                "waterTariffRates": {
+                  "type":"Water",
+                  "layers": "(1-99999999)",
+                  "tariff": "5.2"
+                }
+              },
+            "Area":"AJ Khor",
+            "Street":"BLOCK NO 22, ST NO29 INDUSTRIAL AREA",
+            "BuildingNumber":"423",
+            "Zone":"456733",
+            "Plot":"2442",
+            "PIN":"122104",
+            "isMmeCreatedWith":"Passport",
+            "Passport":"76544"
+        }
+        
+    ],
+    "getReasonOfCancellation":[
+      {"Title":"Reason1","C2MColumnName":"Reason 1"},
+      {"Title":"Reason2","C2MColumnName":"Reason 2" }
+]
+}
+ 
+}

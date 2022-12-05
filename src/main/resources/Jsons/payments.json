@@ -1,0 +1,145 @@
+{
+    "Payments": {
+        "getAccountDetailsPayment": [
+            {
+                "accountID": "5363126252",
+                "alias": "Dad’s",
+                "billNumber": "652829920",
+                "dueDate": "04/07/2022",
+                "billAmount": "550",
+                "billDueAmount": "550",
+                "newCharges": "0",
+                "totalAccountBalance": "550",
+                "totalAmountPayable": "550",
+                "viewPDF": "abc",
+                "statementID": "1869858585",
+                "isConnectedMeter": true,
+                "pin":"98756984",
+                "buildingNumber":"9865896574",
+                "unitNumber":"9867489654",
+                "accountClassification":"Residential"
+            },
+            {
+                "accountID": "5363736252",
+                "alias": "Dad’s",
+                "billNumber": "652829920",
+                "dueDate": "04/07/2022",
+                "billAmount": "550",
+                "billDueAmount": "550",
+                "newCharges": "0",
+                "totalAccountBalance": "550",
+                "totalAmountPayable": "550",
+                "viewPDF": "abc",
+                "statementID": "2869858785",
+                "isConnectedMeter": false,
+                "pin":"98756984",
+                "buildingNumber":"9865896575",
+                "unitNumber":"9867489655",
+                "accountClassification":"Residential"
+            },
+            {
+                "accountID": "5362226252",
+                "alias": "Dad’s",
+                "billNumber": "652829920",
+                "dueDate": "04/07/2022",
+                "billAmount": "550",
+                "billDueAmount": "550",
+                "newCharges": "0",
+                "totalAccountBalance": "550",
+                "totalAmountPayable": "550",
+                "viewPDF": "abc",
+                "statementID": "3869851585",
+                "isConnectedMeter": true,
+                "pin":"98756984",
+                "buildingNumber":"9865896576",
+                "unitNumber":"9867489656",
+                "accountClassification":"Commercial"
+            }
+        ],
+        "cardDetails": [
+            {
+                "cardNumber": "6547",
+                "cardType": "Credit Card"
+            },
+            {
+                "cardNumber": "1547",
+                "cardType": "Credit Card"
+            },
+            {
+                "cardNumber": "1447",
+                "cardType": "Credit Card"
+            },
+            {
+                "cardNumber": "1541",
+                "cardType": "Credit Card"
+            }
+        ],
+        "getAccountByCaseID": [
+            {
+                "accountID": "5363126252",
+                "alias": "Dad’s",
+                "billNumber": "652829920",
+                "dueDate": "04/07/2022",
+                "billAmount": "550",
+                "billDueAmount": "550",
+                "newCharges": "0",
+                "totalAccountBalance": "550",
+                "totalAmountPayable": "550",
+                "viewPDF": "abc",
+                "statementID": "1869858585",
+                "isConnectedMeter": true
+            }
+        ],
+        "paymentReceiptsList": [
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "39869574",
+                "paymentDate": "10/23/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "69869574",
+                "paymentDate": "10/24/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869574",
+                "paymentDate": "10/25/2022",
+                "paymentMethod": "Credit Card"
+            }
+        ],
+        "years": [
+            {
+                "year": "2021"
+            },
+            {
+                "year": "2019"
+            },
+            {
+                "year": "2018"
+            }
+        ],
+        "paymentMethod": [
+            {
+                "payMethod": "Credit Card",
+                "payMethodArabic": "بطاقة الائتمان"
+            },
+            {
+                "payMethod": "Debit Card",
+                "payMethodArabic": "بطاقة ائتمان"
+            }
+        ],
+        "accountClassificationsDetails":[
+            {
+                "accountClassification": "Residential",
+                "accountClassificationArabic": "Residential"
+            },
+            {
+                "accountClassification": "Commercial",
+                "accountClassificationArabic": "Commercial"
+            }
+        ]
+    }
+}

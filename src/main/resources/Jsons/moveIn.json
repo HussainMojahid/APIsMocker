@@ -1,0 +1,14 @@
+{
+    "Movein": {
+      "getCustomerInformationMOI": [
+            
+        {   
+            "birthDate": "1965-08-05",  
+            "gender":"Male", 
+            "nationality":"Qatari"  
+            
+        }
+        
+    ]
+}
+}

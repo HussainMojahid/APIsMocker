@@ -1,0 +1,229 @@
+{
+    "ViewMeterReading":{
+        "GetPremiseData":[
+            {
+                "PremiseID":"7670708888",
+                "PremiseInformation":"Comiche Street, P.O.Box 636, Doha",
+                "PremiseType":"Palace",
+                "Area":"Al Wakrah",
+                "Zone":"456781",
+                "PIN":"122103",
+                "AccountID":"1145342223",
+                "Status":"Eligible",
+                "IsTPQ":false,
+                "MeterType":"Smart Meter",
+                "ResidentName":"Balance Tower",
+                "IsPrePaid":true,
+                "GetAssociatedServicePointOfAC":[
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321312",
+                        "MeterNumber":"5345345",
+                        "MeterType_SP":"Smart Meter",
+                        "PreviousReading":"424 M3",
+                        "PreviousReadingDate":"08/31/2022"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"812323",
+                        "MeterNumber":"6577888",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"422 KWH",
+                        "PreviousReadingDate":"08/22/2021"
+                    },
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"08/15/2019"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"08/10/2020"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"08/01/2022"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"07/30/2021"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"07/20/2019"
+                    },
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"07/01/2019"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"06/30/2022"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"06/15/2020"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"06/01/2020"
+                    },
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"05/30/2019"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"05/30/2022"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"02/30/2021"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"02/01/2019"
+                    },
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"02/01/2020"
+                    },
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"02/28/2019"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"01/01/2020"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"01/31/2021"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"07/01/2019"
+                    },
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"06/30/2019"
+                    },
+                    {
+                        "ServiceType_en": "Water",
+                        "ServiceType_ar": "ماء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"06/01/2018"
+                    },
+                    {
+                        "ServiceType_en": "Electricity",
+                        "ServiceType_ar": "كهرباء",
+                        "ServicePointID":"321355",
+                        "MeterNumber":"6577889",
+                        "MeterType_SP":"Non-Smart Meter",
+                        "PreviousReading":"535 KWH",
+                        "PreviousReadingDate":"06/30/2022"
+                    }
+                ]
+            }
+        ]
+    }
+}

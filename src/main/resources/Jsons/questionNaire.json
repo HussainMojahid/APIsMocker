@@ -1,0 +1,22 @@
+{
+    "Questionnaire": {
+        "Questions":[
+            {
+                "question": "Do you want to update the payment mode of electricity service to",
+                
+         
+                "answers": [
+                  "Postpaid",
+                  "Prepaid"
+                ]
+              },
+              {
+                "question": "Do you want to update the payment mode of Water service to",
+                "answers": [ 
+                    "Postpaid",
+                    "Prepaid"
+                ]
+              }
+        ]
+}
+}

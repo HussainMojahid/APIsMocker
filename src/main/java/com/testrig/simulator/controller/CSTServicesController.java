@@ -13,6 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,6 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.testrig.simulator.exception.DataNotFoundException;
 import com.testrig.simulator.exception.UnAuthorizedException;
 import com.testrig.simulator.repo.HttpRoundTripRepo;
 import com.testrig.simulator.service.HttpRoundTripService;
@@ -65,33 +67,49 @@ public class CSTServicesController {
 
     }
 
-    @GetMapping("/CustomerDetails")
-    public ResponseEntity<Object> CustomerDetails() throws IOException {
+    // @GetMapping("/CustomerDetails")
+    // public ResponseEntity<Object> CustomerDetails() throws IOException {
 
-        // System.out.println(obj);
-        ClassPathResource staticDataResource = new ClassPathResource("/Jsons/CustomerDetails.json");
-        String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
+    //     // System.out.println(obj);
+    //     ClassPathResource staticDataResource = new ClassPathResource("/Jsons/CustomerDetails.json");
+    //     String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
 
-        return ResponseEntity.status(HttpStatus.OK).body(objectMapper.readValue(staticDataString, Object.class));
+    //     return ResponseEntity.status(HttpStatus.OK).body(objectMapper.readValue(staticDataString, Object.class));
 
-    }
+    // }
 
-    @PostMapping("/CustomerDetails")
-    public ResponseEntity<Object> CustomerDetailsPost() throws IOException {
+    // @PostMapping("/CustomerDetails")
+    // public ResponseEntity<Object> CustomerDetailsPost() throws IOException {
 
-        ClassPathResource staticDataResource = new ClassPathResource("/Jsons/CustomerDetails.json");
-        String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
+    //     ClassPathResource staticDataResource = new ClassPathResource("/Jsons/CustomerDetails.json");
+    //     String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
 
-        return ResponseEntity.status(HttpStatus.OK).body(objectMapper.readValue(staticDataString, Object.class));
+    //     return ResponseEntity.status(HttpStatus.OK).body(objectMapper.readValue(staticDataString, Object.class));
 
-    }
+    // }
 
-    @GetMapping("/ServicePointList")
-    public ResponseEntity<Object> ServicePointList() throws IOException {
+    // @GetMapping("/ServicePointList")
+    // public ResponseEntity<Object> ServicePointList() throws IOException {
 
-        ClassPathResource staticDataResource = new ClassPathResource("/Jsons/ServicePointList.json");
-        String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
+    //     ClassPathResource staticDataResource = new ClassPathResource("/Jsons/ServicePointList.json");
+    //     String staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
 
+    //     return ResponseEntity.status(HttpStatus.OK).body(objectMapper.readValue(staticDataString, Object.class));
+    // }
+
+
+    @GetMapping("/{category}")
+    public ResponseEntity<Object> jsonOnCat(@PathVariable String category) throws IOException {
+
+
+        String staticDataString = null;
+
+        try {
+            ClassPathResource staticDataResource = new ClassPathResource("/Jsons/"+category+".json");
+            staticDataString = IOUtils.toString(staticDataResource.getInputStream(), StandardCharsets.UTF_8);
+        } catch (Exception e) {
+            throw new DataNotFoundException("Json file not found with name "+category);
+        }
         return ResponseEntity.status(HttpStatus.OK).body(objectMapper.readValue(staticDataString, Object.class));
 
     }

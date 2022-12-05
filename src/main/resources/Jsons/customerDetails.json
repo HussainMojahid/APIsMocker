@@ -1,0 +1,85 @@
+{
+    "CustomerDetails": {
+        "fetchCustomerInformation": [
+            {
+                "CustomerName": "Rehan Khan",
+                "CustomerNameArabic": "ريحان خان",
+                "QID": "73773636829",
+                "ExpiryDate": "11-07-2026",
+                "EmailAddress": "rehankhan@km.qa",
+                "PhoneNo": "87968575",
+                "PersonId": "511867",
+                "UserType": "Customer",
+                "Age": "30",
+                "Gender": "male",
+                "Nationality": "Qatari",
+                "MaritalStatus": "single",
+                "TotalNumberofAccounts": "10",
+                "PersonInfoString": "",
+                "Id": [
+                    {
+                        "IdType": "QID",
+                        "IdNumber": "98507324255",
+                        "ExpiryDate": "05/07/2022"
+                    },
+                    {
+                        "IdType": "Passport",
+                        "IdNumber": "76544",
+                        "ExpiryDate": "11/11/2022"
+                    }
+                ],
+                "Contact": [
+                    {
+                        "ContactType": "Home Phone Number",
+                        "ContactTypeAR": "رقم الهاتف المنزلي",
+                        "ContactValue": "974511862314",
+                        "IsPrimary": true,
+                        "status": true,
+                        "DNDStart": "01:00:00",
+                        "DNDEnd": "02:00:00"
+                    },
+                    {
+                        "ContactType": "Mobile Number",
+                        "ContactTypeAR": "رقم الهاتف المحمول",
+                        "ContactValue": "8746372894",
+                        "IsPrimary": false,
+                        "status": false,
+                        "DNDStart": "01:00:00",
+                        "DNDEnd": "02:00:00"
+                    },
+                    {
+                        "ContactType": "Email_Address",
+                        "ContactTypeAR": "عنوان البريد الالكترونى",
+                        "ContactInformation": "rehankhan@km.qa",
+                        "IsPrimary": true,
+                        "IsDoNotDisturb": false,
+                        "DNDStart": "01:00:00",
+                        "DNDEnd": "02:00:00"
+                    }
+                ],
+                "AccountDetails": [
+                    {
+                        "Premise ID": "1670743596",
+                        "PremiseInfoString": "",
+                        "AccountID": "3678987654",
+                        "Address": "Street 389, AI Jama Street, Doha",
+                        "AccountClassification": "Residential",
+                        "AutopayEnrolled": true,
+                        "BudgetBillingEnrolled": true,
+                        "PremiseCategory": "Owner",
+                        "UnitNumber": "125123",
+                        "IsPrepaid": true,
+                        "IsLifeSupport": true,
+                        "IsTPQ": true,
+                        "ElectricityNumber": "98789685",
+                        "Zone": "456781",
+                        "pin": "822103",
+                        "Area": "Al Khor",
+                        "ResidentName": "khan villa",
+                        "BuildingName":"Ocean"
+                    }
+                ]
+            }
+        ]   
+    }
+}

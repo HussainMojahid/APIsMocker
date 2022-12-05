@@ -1,0 +1,209 @@
+{
+    "viewBills": {
+        "getAccountDetails": [
+            {
+                "accountID": "5363126252",
+                "alias": "Dad’s",
+                "billNumber": "652829920",
+                "dueDate": "04/07/2022",
+                "billAmount": "550",
+                "billDueAmount": "550",
+                "newCharges": "0",
+                "totalAccountBalance": "550",
+                "totalAmountPayable": "550",
+                "viewPDF": "abc",
+                "statementID": "1869858585",
+                "isConnectedMeter": true,
+                "pin":"98756984",
+                "buildingNumber":"9865896574",
+                "unitNumber":"9867489654",
+                "accountClassification":"Residential",
+                "consumptionDetails" : [
+                    {"ServiceType":"Water","Consumption":"1011","Year":"2022","Month":"Jan","BillDate":"01/13/2022"},
+                    {"ServiceType":"Electricity","Consumption":"1118","Year":"2022","Month":"Mar","BillDate":"03/25/2022"},
+
+                    {"ServiceType":"Water","Consumption":"2001","Year":"2022","Month":"Apr","BillDate":"04/21/2022"},
+                    {"ServiceType":"Electricity","Consumption":"2415","Year":"2022","Month":"Apr","BillDate":"04/10/2022"},
+                   
+                    {"ServiceType":"Water","Consumption":"991","Year":"2022","Month":"Jun","BillDate":"06/22/2022"},
+                    {"ServiceType":"Electricity","Consumption":"991","Year":"2022","Month":"Jun","BillDate":"06/22/2022"},
+
+                    {"ServiceType":"Water","Consumption":"118","Year":"2022","Month":"Jul","BillDate":"07/23/2022"}
+                  
+                    ]
+            }
+            ,
+            {
+                "accountID": "9363736252",
+                "alias": "Dad’s",
+                "billNumber": "652829920",
+                "dueDate": "04/07/2022",
+                "billAmount": "550",
+                "billDueAmount": "550",
+                "newCharges": "0",
+                "totalAccountBalance": "550",
+                "totalAmountPayable": "550",
+                "viewPDF": "abc",
+                "statementID": "2869858785",
+                "isConnectedMeter": false,
+                "pin":"98756984",
+                "buildingNumber":"9865896575",
+                "unitNumber":"9867489655",
+                "accountClassification":"Residential",
+                "consumptionDetails" : [
+                    {"ServiceType":"Water","Consumption":"1011","Year":"2022","Month":"Nov","BillDate":"01/13/2022"},
+                    {"ServiceType":"Electricity","Consumption":"1118","Year":"2022","Month":"Mar","BillDate":"03/25/2022"},
+
+                    {"ServiceType":"Water","Consumption":"2001","Year":"2022","Month":"Apr","BillDate":"04/21/2022"},
+                    {"ServiceType":"Electricity","Consumption":"2415","Year":"2022","Month":"Apr","BillDate":"04/10/2022"},
+                   
+                    {"ServiceType":"Water","Consumption":"991","Year":"2022","Month":"Jun","BillDate":"06/22/2022"},
+                    {"ServiceType":"Electricity","Consumption":"991","Year":"2022","Month":"Jun","BillDate":"06/22/2022"},
+
+                    {"ServiceType":"Water","Consumption":"118","Year":"2022","Month":"Jul","BillDate":"07/23/2022"}
+                    ]
+            },
+            {
+                "accountID": "5362226252",
+                "alias": "Dad’s",
+                "billNumber": "652829920",
+                "dueDate": "04/07/2022",
+                "billAmount": "550",
+                "billDueAmount": "550",
+                "newCharges": "0",
+                "totalAccountBalance": "550",
+                "totalAmountPayable": "550",
+                "viewPDF": "abc",
+                "statementID": "3869851585",
+                "isConnectedMeter": true,
+                "pin":"98756984",
+                "buildingNumber":"9865896576",
+                "unitNumber":"9867489656",
+                "accountClassification":"Commercial",
+                "consumptionDetails" : [
+                    {"ServiceType":"Water","Consumption":"1011","Year":"2022","Month":"Jan","BillDate":"01/13/2022"},
+                    {"ServiceType":"Electricity","Consumption":"1118","Year":"2022","Month":"Mar","BillDate":"03/25/2022"},
+
+                    {"ServiceType":"Water","Consumption":"2001","Year":"2022","Month":"Apr","BillDate":"04/21/2022"},
+                    {"ServiceType":"Electricity","Consumption":"2415","Year":"2022","Month":"Apr","BillDate":"04/10/2022"},
+                   
+                    {"ServiceType":"Water","Consumption":"991","Year":"2022","Month":"Jun","BillDate":"06/22/2022"},
+                    {"ServiceType":"Electricity","Consumption":"991","Year":"2022","Month":"Jun","BillDate":"06/22/2022"},
+
+                    {"ServiceType":"Water","Consumption":"118","Year":"2022","Month":"Jul","BillDate":"07/23/2022"}
+                    ]
+            }
+        ],
+        "billList": [
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "39869574",
+                "paymentDate": "10/23/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "69869574",
+                "paymentDate": "10/24/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869574",
+                "paymentDate": "10/25/2022",
+                "paymentMethod": "Credit Card"
+            }
+            ,
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869571",
+                "paymentDate": "10/26/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869572",
+                "paymentDate": "10/27/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869573",
+                "paymentDate": "10/28/2022",
+                "paymentMethod": "Debit Card"
+            }
+            ,
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869575",
+                "paymentDate": "10/29/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869576",
+                "paymentDate": "10/30/2022",
+                "paymentMethod": "Credit Card"
+            }
+            ,
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869577",
+                "paymentDate": "11/01/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869578",
+                "paymentDate": "11/02/2022",
+                "paymentMethod": "Credit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869579",
+                "paymentDate": "11/03/2022",
+                "paymentMethod": "Debit Card"
+            },
+            {
+                "totalPaidAmount": "800",
+                "receiptNumber": "79869570",
+                "paymentDate": "11/04/2022",
+                "paymentMethod": "Credit Card"
+            } 
+          
+
+        ],
+        "years": [
+            {
+                "year": "2021"
+            },
+            {
+                "year": "2019"
+            },
+            {
+                "year": "2018"
+            }
+        ],
+        "paymentMethod": [
+            {
+                "payMethod": "Credit Card",
+                "payMethodArabic": "بطاقة الائتمان"
+            },
+            {
+                "payMethod": "Debit Card",
+                "payMethodArabic": "بطاقة ائتمان"
+            }
+        ],
+        "accountClassificationsDetails": [
+            {
+                "accountClassification": "Residential",
+                "accountClassificationArabic": "Residential"
+            },
+            {
+                "accountClassification": "Commercial",
+                "accountClassificationArabic": "Commercial"
+            }
+        ]
+        
+    }
+}

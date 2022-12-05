@@ -1,0 +1,20 @@
+{
+  "Refund": {
+    "getAccountDetails": [{
+        "accountID": "1145342222",
+        "premiseID": "7670748880",
+        "refundAmount": "160"
+      },
+      {
+        "accountID": "1145342223",
+        "premiseID": "7670748888",
+        "refundAmount": "230"
+      },
+      {
+        "accountID": "1145342225",
+        "premiseID": "1670748889",
+        "refundAmount": "440"
+      }
+    ]
+  }
+}

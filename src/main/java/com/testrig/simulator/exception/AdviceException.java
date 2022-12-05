@@ -49,7 +49,7 @@ public class AdviceException {
     public ResponseEntity<Object> NotFoundException(DataNotFoundException exception) {
 
         return new ResponseEntity<>(
-                new errorResponse(HttpStatus.NOT_FOUND.value(), "No Such Data", false, HttpStatus.NOT_FOUND.name()),
+                new errorResponse(HttpStatus.NOT_FOUND.value(), exception.getMessage(), false, HttpStatus.NOT_FOUND.name()),
                 HttpStatus.NOT_FOUND);
 
     }
