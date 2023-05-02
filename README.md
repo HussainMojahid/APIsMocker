@@ -15,10 +15,10 @@ The following items should be installed in your system:
 Steps:
     On the command line
 ```
-    git clone https://github.com/HussainMojahid/testrig-payment-sim.git
+    git clone https://github.com/HussainMojahid/APIsMocker.git
 ```
 ```
-    cd testrig-payment-sim
+    cd APIsMocker
 ```
 ```
     mvn spring-boot:run
