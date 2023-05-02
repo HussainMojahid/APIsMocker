@@ -1,0 +1,96 @@
+{
+    "BudgetBilling": {
+      "getCustomerInformation": [
+            
+        {   
+            "CustomerName": "Rehan Khan",  
+            "QID":"73773636829"
+           
+        }
+    ],
+
+        "getAccountDetailsBudgetBilling":[
+            {
+                "accountID": "5678987654",  
+                "premiseID": "9670723596",
+                "budgetBilling":"Enrolled"
+            },
+            {
+                "accountID": "5678987651",  
+                "premiseID": "3670743596",
+                "budgetBilling":"Enrolled"
+            },
+            {
+                "accountID": "2678987654",  
+                "premiseID": "5670743596",
+                "budgetBilling":"Enrolled"
+            },
+            {
+                "accountID": "3678987654",  
+                "premiseID": "1670743596",
+                "budgetBilling":"Enrolled"
+            },
+            {
+                "accountID": "4678987654",  
+                "premiseID": "9670743596",
+                "budgetBilling":"NotEnrolled"
+            },
+            {
+                "accountID": "5778987654",  
+                "premiseID": "8670743596",
+                "budgetBilling":"NotEnrolled"
+            },
+            {
+                "accountID": "8678987654",  
+                "premiseID": "9670743596",
+                "budgetBilling":"NotEnrolled"
+            }
+        ],
+
+        "getServicePointDetails":[
+            {
+            "serviceType":"Electricity",
+            "serviceAgreementID":"812323",
+            "budgetAmount":"400"
+        },
+        {
+            "serviceType":"Water",
+            "serviceAgreementID":"321355",
+            "budgetAmount":"600"
+        },
+        {
+            "serviceType":"Electricity",
+            "serviceAgreementID":"321312",
+            "budgetAmount":"490"
+        } 
+    ],
+    "getRecommendedServicePointDetails":[
+        {
+        "serviceType":"Electricity",
+        "serviceAgreementID":"812323",
+        "budgetAmount":"450"
+    },
+    {
+        "serviceType":"Water",
+        "serviceAgreementID":"321355",
+        "budgetAmount":"800"
+    },
+    {
+        "serviceType":"Electricity",
+        "serviceAgreementID":"321312",
+        "budgetAmount":"790"
+    } 
+],
+"getBudgetPlan":[
+    {
+    "budgetPlan":"Commercial Budget Plan"
+    
+},
+{
+    "budgetPlan":"Residential Budget Plan"
+    
+} 
+]
+      
+}
+}
