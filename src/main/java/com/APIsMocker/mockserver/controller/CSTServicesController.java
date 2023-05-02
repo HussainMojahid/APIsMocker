@@ -61,7 +61,7 @@ public class CSTServicesController {
 
         } else {
 
-            throw new UnAuthorizedException();
+            throw new UnAuthorizedException("");
 
         }
 

@@ -26,7 +26,7 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 @RestController
 @CrossOrigin(origins = "*")
 @RequestMapping(value = "/xmlconvertor")
-public class JsonComprator {
+public class JsonCompareController {
 
     // @GetMapping("/xmltojson")
     @PostMapping(path = "/xmltojson", consumes = MediaType.APPLICATION_XML_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
