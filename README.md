@@ -1,4 +1,4 @@
-# testrig-payment-sim
+# APIs Mocker
 
 Prerequisites
 
