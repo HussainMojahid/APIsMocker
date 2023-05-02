@@ -9,11 +9,11 @@
 		<relativePath />
 		<!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.testrig.payment-simulator</groupId>
-	<artifactId>payment-simulator</artifactId>
+	<groupId>com.APIsMocker</groupId>
+	<artifactId>APIsMocker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>payment-simulator</name>
-	<description>Demo project for payment-simulator in Spring Boot</description>
+	<name>mock-server</name>
+	<description>Demo project mock server in Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
